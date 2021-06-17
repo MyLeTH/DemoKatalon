@@ -37,5 +37,5 @@ WebUI.verifyElementVisible(findTestObject('Page_Digital Transformation Consultin
 
 WebUI.verifyElementVisible(findTestObject('Page_Digital Transformation Consulting  Ope_4db1bc/buttonLearn more'))
 
-WebUI.closeBrowser()
+
 
