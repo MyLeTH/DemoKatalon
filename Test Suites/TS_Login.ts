@@ -15,7 +15,7 @@
       <guid>2f70fa58-60ee-4219-bdd0-7f9389bf17a5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DataDrivenTests/TC1</testCaseId>
+      <testCaseId>Test Cases/DataDrivenTests/TC05 - Name of employees are ordered by ascending of alphabets when clicking on Name header</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>93f5b374-66fc-489e-b80e-281fd7f33973</id>

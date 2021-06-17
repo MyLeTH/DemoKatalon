@@ -27,7 +27,7 @@ WebUI.setEncryptedText(findTestObject('Page_AH  Login/txt_Password'), 'aeHFOx8jV
 
 WebUI.click(findTestObject('Object Repository/Page_AH  Login/button_Login'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_AH  Employees List/div_Employees List'))
+WebUI.verifyElementVisible(findTestObject('Page_AH  Employees List/title_Employees List'))
 
 WebUI.closeBrowser()
 
