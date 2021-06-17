@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Page_AH  Login/txt_Password'), findTestData("UserD
 
 WebUI.click(findTestObject('Object Repository/Page_AH  Login/button_Login'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_AH  Employees List/div_Employees List'))
+WebUI.verifyElementVisible(findTestObject('Page_AH  Employees List/title_Employees List'))
 
 WebUI.click(findTestObject('Page_AH  Employees List/link_Open Web Technology'))
 
@@ -37,5 +37,5 @@ WebUI.verifyElementVisible(findTestObject('Page_Digital Transformation Consultin
 
 WebUI.verifyElementVisible(findTestObject('Page_Digital Transformation Consulting  Ope_4db1bc/buttonLearn more'))
 
-WebUI.closeBrowser()
+
 

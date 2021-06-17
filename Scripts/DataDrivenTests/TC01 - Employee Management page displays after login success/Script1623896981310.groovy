@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+ 
 
 WebUI.openBrowser('')
 
@@ -30,7 +31,7 @@ WebUI.setText(findTestObject('Page_AH  Login/txt_Password'), findTestData("UserD
 
 WebUI.click(findTestObject('Object Repository/Page_AH  Login/button_Login'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_AH  Employees List/div_Employees List'))
+WebUI.verifyElementVisible(findTestObject('Page_AH  Employees List/title_Employees List'))
 
 WebUI.closeBrowser()
 
