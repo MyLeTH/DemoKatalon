@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC03</name>
+   <name>TC04-Search results display matching with Search terms</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>caf60d93-f678-425f-aee0-62e3ebc1f281</testCaseGuid>
