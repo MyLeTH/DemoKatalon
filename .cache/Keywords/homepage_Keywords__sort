@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "1E4099446778F5A5BB907ED5ED2FB96E",
+  "keywordFileContentHash": "A8A8CDC4727A6BD6E56A04C191E92EE5",
   "keywordClasses": [
     {
       "name": "homepage_Keywords.sort",
@@ -7,7 +7,7 @@
         {
           "name": "checkNameSorting",
           "parameters": [],
-          "javadoc": "/**\n\t * Refresh browser\n\t */"
+          "javadoc": "/**\r\n\t * Refresh browser\r\n\t */"
         }
       ]
     }

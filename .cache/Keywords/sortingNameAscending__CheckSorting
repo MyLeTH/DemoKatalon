@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "5F45FFD0775244F6D3401D3917E1E435",
+  "keywordClasses": [
+    {
+      "name": "sortingNameAscending.CheckSorting",
+      "keywordMethods": [
+        {
+          "name": "keywordName",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

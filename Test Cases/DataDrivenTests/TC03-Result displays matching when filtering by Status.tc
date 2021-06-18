@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Result displays matching with Status has chosen</description>
+   <name>TC03-Result displays matching when filtering by Status</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb15dcf5-0b81-4573-87fc-70464f5f9c1f</testCaseGuid>
+</TestCaseEntity>
