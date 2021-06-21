@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>wrong_name</name>
+   <name>item_wrong_name</name>
    <tag></tag>
    <elementGuidId>0efcccc5-e1e4-4052-9948-1c4fbfc10289</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//tbody//a[not(contains(.,'ab'}))]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//tbody//a[not(contains(.,'${name}'))]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//tbody//a[not(contains(.,'ab'}))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

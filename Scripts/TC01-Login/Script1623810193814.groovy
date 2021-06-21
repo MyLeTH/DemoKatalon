@@ -21,13 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://admin-helper-f21c1.web.app/login')
 
-WebUI.setText(findTestObject('Page_AH  Login/txt_Username'), 'admin@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_AH  Login/input_Login_form-control ng-untouched ng-in_5cd79f'), 'admin@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Page_AH  Login/txt_Password'), 'aeHFOx8jV/A=')
+WebUI.sendKeys(findTestObject('Object Repository/Page_AH  Login/input_Login_form-control ng-untouched ng-in_5cd79f'), Keys.chord(
+        Keys.ENTER))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_AH  Login/input_Login_form-control ng-untouched ng-in_5cd79f_1'), 
+    'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Object Repository/Page_AH  Login/button_Login'))
 
-WebUI.verifyElementVisible(findTestObject('Page_AH  Employees List/title_Employees List'))
-
-WebUI.closeBrowser()
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_AH  Employees List/div_Employees List'))
 

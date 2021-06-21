@@ -21,22 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://admin-helper-f21c1.web.app/login')
 
-WebUI.setText(findTestObject('Page_AH  Login/txt_Username'), findTestData('UserData').getValue(2, 2))
+WebUI.setText(findTestObject('Object Repository/Page_AH  Login/input_Login_form-control ng-untouched ng-in_5cd79f'), 'admin@gmail.com')
 
-WebUI.setText(findTestObject('Page_AH  Login/txt_Password'), findTestData('UserData').getValue(3, 2))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_AH  Login/input_Login_form-control ng-untouched ng-in_5cd79f_1'), 
+    'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Object Repository/Page_AH  Login/button_Login'))
 
-WebUI.verifyElementVisible(findTestObject('Page_AH  Employees List/title_Employees List'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_AH  Employees List/div_Employees List'))
 
-WebUI.setText(findTestObject('Object Repository/Page_AH  Employees List/input_Employees List_form-control sticky-to_512b43'), 
-    name)
-
-WebUI.click(findTestObject('Object Repository/Page_AH  Employees List/div_Employees List_input-group-text'))
-
-//TestObject wrongName = new TestObject().addProperty('xpath', ConditionType.EQUALS, "//tbody//a[not(contains(.,'ab'))]")
-
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_AH  Employees List/wrong_name',['name':name]),0)
-
-	
-	

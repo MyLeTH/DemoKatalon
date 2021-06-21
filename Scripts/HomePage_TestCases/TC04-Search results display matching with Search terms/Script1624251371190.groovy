@@ -20,3 +20,23 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://admin-helper-f21c1.web.app/login')
+
+WebUI.setText(findTestObject('Page_AH  Login/txt_Username'), findTestData('UserData').getValue(2, 2))
+
+WebUI.setText(findTestObject('Page_AH  Login/txt_Password'), findTestData('UserData').getValue(3, 2))
+
+WebUI.click(findTestObject('Object Repository/Page_AH  Login/button_Login'))
+
+WebUI.verifyElementVisible(findTestObject('Page_AH  Employees List/title_Employees List'))
+
+WebUI.setText(findTestObject('Page_AH  Employees List/txt_search'), 
+    name)
+
+WebUI.click(findTestObject('Page_AH  Employees List/btn-search'))
+
+//TestObject wrongName = new TestObject().addProperty('xpath', ConditionType.EQUALS, "//tbody//a[not(contains(.,'ab'))]")
+
+WebUI.verifyElementNotPresent(findTestObject('Page_AH  Employees List/item_wrong_name',['name':name]),0)
+
+	
+	
