@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC1</name>
+   <name>TC05 - Name of employees are ordered by ascending of alphabets when clicking on Name header</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>dc7db947-2460-4cf3-a4ec-b67010b0fcf6</testCaseGuid>
